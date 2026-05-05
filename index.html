@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курс: Хмарні Технології | Опануй майбутнє IT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Cloud<span>Academy</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">Про курс</a></li>
+                <li><a href="#program">Програма</a></li>
+                <li><a href="#contact" class="btn-secondary">Записатися</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Стань експертом у <span class="highlight">Хмарних Технологіях</span></h1>
+                <p>Опануйте AWS, Azure та Google Cloud з нуля. Навчіться будувати масштабовану інфраструктуру та розгортати додатки у хмарі.</p>
+                <div class="cta-group">
+                    <a href="#contact" class="btn-primary">Почати навчання</a>
+                    <a href="#program" class="btn-outline">Дивитися програму</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="cloud-icon" style="font-size: 10rem; animation: float 3s ease-in-out infinite;">☁️</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="features">
+        <div class="container">
+            <h2 class="section-title">Чому варто обрати цей курс?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">🚀</div>
+                    <h3>Практика з 1-го дня</h3>
+                    <p>Тільки реальні кейси та робота з реальними консолями хмарних провайдерів.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🛡️</div>
+                    <h3>Безпека та DevOps</h3>
+                    <p>Дізнайтеся, як захистити дані та автоматизувати розгортання через CI/CD.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📈</div>
+                    <h3>Кар'єрний ріст</h3>
+                    <p>Хмарні архітектори — одні з найбільш високооплачуваних спеціалістів у світі.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="program" class="program">
+        <div class="container">
+            <h2 class="section-title">Програма навчання</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">Модуль 1: Вступ до Cloud Computing <span>+</span></div>
+                    <div class="accordion-content">
+                        <p>Основи віртуалізації, типи хмар (Public, Private, Hybrid) та моделі сервісів (IaaS, PaaS, SaaS).</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">Модуль 2: Робота з AWS та Azure <span>+</span></div>
+                    <div class="accordion-content">
+                        <p>Налаштування VPC, робота з EC2 інстансами, S3 сховищами та базами даних RDS.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">Модуль 3: Контейнеризація та Kubernetes <span>+</span></div>
+                    <div class="accordion-content">
+                        <p>Docker основи, оркестрація контейнерів та розгортання мікросервісів.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Залишити заявку</h2>
+                <p>Заповніть форму, і ми надішлемо вам детальний план навчання.</p>
+                <form id="landingForm">
+                    <input type="text" placeholder="Ваше ім'я" required>
+                    <input type="email" placeholder="Email" required>
+                    <button type="submit" class="btn-primary">Відправити</button>
+                </form>
+                <div id="formMessage" class="hidden">Дякуємо! Ми зв'яжемося з вами найближчим часом.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 CloudAcademy. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
